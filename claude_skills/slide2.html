@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #0a1628;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: #00d9ff;
+  padding: 15pt;
+  text-align: center;
+  flex-grow: 0;
+}
+h2 {
+  font-size: 32pt;
+  font-weight: bold;
+  margin: 0;
+  color: #0a1628;
+}
+.content {
+  padding: 30pt;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  font-size: 18pt;
+  color: #ffffff;
+  margin-bottom: 15pt;
+  padding-left: 25pt;
+  position: relative;
+}
+li:before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  color: #9b59b6;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h2>Key Milestones</h2>
+</div>
+<div class="content">
+  <ul>
+    <li>Moon Landing (1969)</li>
+    <li>Space Shuttle Era (1981-2011)</li>
+    <li>International Space Station (1998-present)</li>
+    <li>Mars Rovers (2004-present)</li>
+    <li>Private Space Companies (2010-present)</li>
+  </ul>
+</div>
+</body>
+</html>

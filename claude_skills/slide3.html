@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #0a1628;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: #9b59b6;
+  padding: 15pt;
+  text-align: center;
+  flex-grow: 0;
+}
+h2 {
+  font-size: 32pt;
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+}
+.content {
+  padding: 30pt;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.planet-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20pt;
+}
+.planet {
+  flex: 1;
+  text-align: center;
+  margin-right: 15pt;
+  padding: 15pt;
+  background: rgba(0, 217, 255, 0.1);
+  border-left: 4pt solid #00d9ff;
+  border-radius: 4pt;
+}
+.planet:last-child {
+  margin-right: 0;
+}
+.planet-name {
+  font-size: 16pt;
+  font-weight: bold;
+  color: #00d9ff;
+  margin-bottom: 8pt;
+}
+.planet-fact {
+  font-size: 14pt;
+  color: #e0e0e0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h2>Our Solar System</h2>
+</div>
+<div class="content">
+  <div class="planet-row">
+    <div class="planet">
+      <div class="planet-name">Mercury</div>
+      <div class="planet-fact">Closest to Sun</div>
+    </div>
+    <div class="planet">
+      <div class="planet-name">Venus</div>
+      <div class="planet-fact">Hottest Planet</div>
+    </div>
+    <div class="planet">
+      <div class="planet-name">Earth</div>
+      <div class="planet-fact">Our Home</div>
+    </div>
+  </div>
+  <div class="planet-row">
+    <div class="planet">
+      <div class="planet-name">Mars</div>
+      <div class="planet-fact">Red Planet</div>
+    </div>
+    <div class="planet">
+      <div class="planet-name">Jupiter</div>
+      <div class="planet-fact">Giant Planet</div>
+    </div>
+    <div class="planet">
+      <div class="planet-name">Saturn</div>
+      <div class="planet-fact">Ring System</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
